@@ -1,0 +1,24 @@
+{
+    "name": "IMPACT Viewer Test",
+    "description": "Test env for IMPact Viewer",
+    "repository": "https://github.com/DvIMPact/ForgeViewerName",
+    "logo": "https://github.com/DvIMPact/ForgeViewerName/blob/master/public/img/IMPact.png",
+    "keywords": [
+      "express",
+      "framework",
+      "autodesk",
+      "forge",
+      "template",
+      "Viewer"
+    ],
+    "env": {
+      "FORGE_CLIENT_ID": {
+        "description": "Forge Client ID"
+      },
+      "FORGE_CLIENT_SECRET": {
+        "description": "Forge Client Secret"
+      }
+    },
+    "website": "https://forge.autodesk.com/",
+    "success_url": "/"
+  }
