@@ -108,7 +108,8 @@ function prepareAppBucketTree() {
     $('#appBuckets').jstree('open_all');
   }).bind("activate_node.jstree", function (evt, data) {
     if (data != null && data.node != null && data.node.type == 'object') {
-      $("#forgeViewer").empty();
+      if (loadedModel === false) 
+        $("#forgeViewer").empty();
       var urn = data.node.id;
       getForgeToken(function (access_token) {
         jQuery.ajax({
