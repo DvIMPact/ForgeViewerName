@@ -2,7 +2,7 @@
     "name": "IMPACT Viewer Test",
     "description": "Test env for IMPact Viewer",
     "repository": "https://github.com/DvIMPact/ForgeViewerName",
-    "logo": "https://github.com/DvIMPact/ForgeViewerName/blob/master/public/img/IMPact.png",
+    "logo": "public/img/IMPact.png",
     "keywords": [
       "express",
       "framework",
