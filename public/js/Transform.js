@@ -5,9 +5,9 @@
     /////////////////////////////////////////////////////////////
     function getScale() {
 
-        var x = 1.0000
-        var y = 1.0000
-        var z = 1.0000
+        var x = 0.0000
+        var y = 0.0000
+        var z = 0.0000
   
         return new THREE.Vector3(x, y, z);
       }
