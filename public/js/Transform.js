@@ -71,7 +71,7 @@
         console.log('Value S', s);
   
         var m = new THREE.Matrix4();
-        console.log("Change");
+        console.log('Change');
         m.compose(t, r, s);
         console.log('Return M ',m);
         return m;
