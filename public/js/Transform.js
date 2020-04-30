@@ -5,9 +5,9 @@
     /////////////////////////////////////////////////////////////
     function getScale() {
 
-        var x = 0.0000
-        var y = 0.0000
-        var z = 0.0000
+        var x = 1.0000
+        var y = 1.0000
+        var z = 1.0000
   
         return new THREE.Vector3(x, y, z);
       }
@@ -71,7 +71,7 @@
         console.log('Value S', s);
   
         var m = new THREE.Matrix4();
-  
+        console.log("Change");
         m.compose(t, r, s);
         console.log('Return M ',m);
         return m;
